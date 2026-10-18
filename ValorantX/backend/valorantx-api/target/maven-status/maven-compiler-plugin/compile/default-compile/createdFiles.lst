@@ -1,0 +1,9 @@
+com\valorantx\business\validation\UsuarioValidation.class
+com\valorantx\data\entity\Usuario.class
+com\valorantx\presentation\dto\LoginRequest.class
+com\valorantx\presentation\dto\RegistroRequest.class
+com\valorantx\presentation\controller\UsuarioController.class
+com\valorantx\data\repository\UsuarioRepository.class
+com\valorantx\business\service\UsuarioService.class
+com\valorantx\ValorantXApplication.class
+com\valorantx\business\service\UsuarioServiceImpl.class

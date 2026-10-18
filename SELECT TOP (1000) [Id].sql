@@ -1,0 +1,6 @@
+SELECT TOP (1000) [Id]
+      ,[NombreUsuario]
+      ,[Correo]
+      ,[Contrasena]
+      ,[FechaRegistro]
+  FROM [ValorantX].[dbo].[Usuarios]

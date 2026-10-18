@@ -1,0 +1,1 @@
+export default function HomePage(){return <main className="screen"><section className="card home"><div className="brand">Valorant<span>X</span></div><h1>Bienvenido</h1><p className="subtitle">Inicio de sesión correcto.</p></section></main>}

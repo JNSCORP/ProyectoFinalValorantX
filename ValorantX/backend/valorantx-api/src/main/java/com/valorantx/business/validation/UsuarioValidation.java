@@ -1,0 +1,3 @@
+package com.valorantx.business.validation;
+import com.valorantx.data.repository.UsuarioRepository; import org.springframework.stereotype.Component;
+@Component public class UsuarioValidation { private final UsuarioRepository repository; public UsuarioValidation(UsuarioRepository repository){this.repository=repository;} public void validarRegistro(String usuario,String correo){ if(repository.existsByNombreUsuario(usuario))throw new IllegalArgumentException("El usuario ya está registrado"); if(repository.existsByCorreo(correo))throw new IllegalArgumentException("El correo ya está registrado"); } }
